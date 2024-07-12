@@ -1,0 +1,190 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.hero{
+     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/background.png);
+     height: 100vh;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     padding-left: 10%;
+     padding-right: 10%;
+     box-sizing: border-box; 
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    nav ul{
+        flex: 1;
+        text-align: right;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 25px;
+    }
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color: #ff5361;
+    }
+    .btn-upload{
+        text-decoration: none;
+        background-color: #ff5361;
+        color: #fff;
+        border-radius: 30px;
+        margin: 25px;
+        padding: 10px 40px;
+        transition: transform 0.5s;
+    }
+    .btn-upload:hover{
+        transform: scale(0.9);
+    }
+
+    .container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        
+    }
+    .container h1{
+        font-size: 52px;
+        font-weight: 600;
+    }
+    .container input{
+        width: 90%;
+        max-width: 840px;
+        border-radius: 25px;
+        height: 50px;
+        border: none;
+        padding: 0 30px;
+        margin: 20px;
+        outline: none;
+        font-size: 16px;
+    }
+    .container a{
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .container a:hover{
+        color: #ff5361;
+        text-decoration: underline;
+    }
+    .gallery{
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        margin: 0 40px;
+    }
+    .gallery{
+        font-size: 12px;
+        font-weight: 400;
+        margin: 20px 12px;
+    }
+    .masonery{
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 1800px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .m-block{
+        width: 33.33%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    .m-block img{
+        width: 100%;
+        cursor: pointer;
+        transition: transform 1s;
+    }
+    .m-block img:hover{
+        transform: scale(1.05);
+    }
+    .btn-explore{
+         display: block;
+         width: 50%;
+         max-width: 350px;
+         background-color:#ff5361;
+         color: #fff;
+         border-radius: 30px;
+         text-align: center;
+         padding: 14px 0;
+         margin: 60px auto;
+         text-decoration: none;
+         transition: transform 0.5s;
+    }
+    .btn-explore:hover{
+        transform: scale(1.05);
+    }
+    .customer{
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        margin: 0 40px;
+    }
+    .customer h2{
+           font-size: 30px;
+           font-weight: 500;
+           text-align: center;
+           margin: 60px auto;
+    }
+
+    .customer-rows{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .customer-col{
+         flex-basis: 25%;
+         text-align: center;
+    }
+    .customer-col img{
+        width: 90%;
+        cursor: pointer;
+        transition:0.5s;
+    }
+    .customer-col img:hover{
+        transform:translateY(-10px) ;
+    }
+    .about{
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        margin: 120px 15px;
+        
+    }
+    .about h2{
+        color: #535353;
+        font-size: 30px;
+        font-weight: 500;
+        margin: 60px 0;
+        text-align: center;
+    }
+    .about p{
+        font-size: 17px;
+        line-height: 30px;
+        color: #553333;
+    }
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        background-color:#ebebeb;
+        color: #535353;
+        font-size: 17px;
+    }
